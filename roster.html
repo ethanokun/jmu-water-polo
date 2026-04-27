@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roster & Stats - JMU Men's Club Water Polo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="duke_dog_polo.png" alt="JMU Duke Dog" class="nav-logo-img">
+            JMU Water Polo
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="roster.html" class="active">Roster & Stats</a></li>
+            <li><a href="gallery.html">Gallery & Events</a></li>
+            <li><a href="https://collegiatewaterpolo.org/club/" target="_blank">CWPA Info</a></li>
+        </ul>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1>Club History & Rosters</h1>
+            <p>Explore our current and past seasons.</p>
+        </div>
+    </header>
+
+    <div class="container tabs-container">
+        <div class="tab-buttons">
+            <button class="tab-btn active" onclick="openTab(event, 'season-25-26')">2025-26 (Current)</button>
+            <button class="tab-btn" onclick="openTab(event, 'season-24-25')">2024-25 Season</button>
+            <button class="tab-btn" onclick="openTab(event, 'season-23-24')">2023-24 Season</button>
+        </div>
+
+        <!-- 2025-26 Current Season -->
+        <div id="season-25-26" class="tab-content active">
+
+    <section class="roster-section">
+        <div class="container">
+            <h2>Current Starting Roster</h2>
+            <div class="pool-container fade-in">
+                <div class="goal-box"></div>
+                <div class="goal-box opposing"></div>
+                <div class="water-polo-ball"></div>
+                <div class="goal-text">GOAL!</div>
+                
+                <!-- Goalie -->
+                <div class="pool-player goalie" style="top: 95%; left: 50%;">
+                    1
+                    <div class="player-info info-top">
+                        <strong>Scott Boutry</strong>
+                        Goalie
+                    </div>
+                </div>
+                
+                <!-- Set (Aidan) -->
+                <div class="pool-player" style="top: 75%; left: 50%;">
+                    5
+                    <div class="player-info">
+                        <strong>Aidan Metz</strong>
+                        Set
+                    </div>
+                </div>
+
+                <!-- Set Defender / Point (Peter) -->
+                <div class="pool-player" style="top: 35%; left: 50%;">
+                    2
+                    <div class="player-info">
+                        <strong>Peter Willimson</strong>
+                        Set Defender
+                    </div>
+                </div>
+
+                <!-- 1 Position (Ethan Smith) -->
+                <div class="pool-player" style="top: 80%; left: 15%;">
+                    9
+                    <div class="player-info">
+                        <strong>Ethan Smith</strong>
+                        Utility
+                    </div>
+                </div>
+
+                <!-- 2 Position (Ethan Okun) -->
+                <div class="pool-player" style="top: 55%; left: 25%;">
+                    8
+                    <div class="player-info">
+                        <strong>Ethan Okun</strong>
+                        Utility
+                    </div>
+                </div>
+
+                <!-- 4 Position (Lucas Bauer) -->
+                <div class="pool-player" style="top: 55%; left: 75%;">
+                    12
+                    <div class="player-info">
+                        <strong>Lucas "Grippy" Bauer</strong>
+                        Attacker
+                    </div>
+                </div>
+
+                <!-- 5 Position (Will Stormer) -->
+                <div class="pool-player" style="top: 80%; left: 85%;">
+                    4
+                    <div class="player-info">
+                        <strong>Will Stormer</strong>
+                        Attacker
+                    </div>
+                </div>
+            </div>
+            
+            <h2 style="margin-top: 4rem;">Full 2025-26 Roster</h2>
+            <div class="full-roster-grid">
+                <!-- 1: Scott Boutry (Starter) -->
+                <div class="roster-card fade-in">
+                    <span class="badge" style="background-color: var(--jmu-purple); color: var(--white);">Starter</span>
+                    <h3>Scott Boutry</h3>
+                    <p>#1</p>
+                </div>
+                <!-- 1A: Carter Dyche -->
+                <div class="roster-card fade-in">
+                    <h3>Carter Dyche</h3>
+                    <p>#1A</p>
+                </div>
+                <!-- 2: Peter Willimson (Starter) -->
+                <div class="roster-card fade-in">
+                    <span class="badge" style="background-color: var(--jmu-purple); color: var(--white);">Starter</span>
+                    <h3>Peter Willimson</h3>
+                    <p>#2</p>
+                </div>
+                <!-- 4: Will Stormer (Starter) -->
+                <div class="roster-card fade-in">
+                    <span class="badge" style="background-color: var(--jmu-purple); color: var(--white);">Starter</span>
+                    <h3>Will Stormer</h3>
+                    <p>#4</p>
+                </div>
+                <!-- 5: Aidan Metz (Starter) -->
+                <div class="roster-card fade-in">
+                    <span class="badge" style="background-color: var(--jmu-purple); color: var(--white);">Starter</span>
+                    <h3>Aidan Metz</h3>
+                    <p>#5</p>
+                </div>
+                <!-- 6: Aaron Kinitz -->
+                <div class="roster-card fade-in">
+                    <h3>Aaron Kinitz</h3>
+                    <p>#6</p>
+                </div>
+                <!-- 7: Matthew Gibson -->
+                <div class="roster-card fade-in">
+                    <h3>Matthew Gibson</h3>
+                    <p>#7</p>
+                </div>
+                <!-- 8: Ethan Okun (Starter) -->
+                <div class="roster-card fade-in">
+                    <span class="badge" style="background-color: var(--jmu-purple); color: var(--white);">Starter</span>
+                    <h3>Ethan Okun</h3>
+                    <p>#8</p>
+                </div>
+                <!-- 9: Ethan Smith (Starter) -->
+                <div class="roster-card fade-in">
+                    <span class="badge" style="background-color: var(--jmu-purple); color: var(--white);">Starter</span>
+                    <h3>Ethan Smith</h3>
+                    <p>#9</p>
+                </div>
+                <!-- 10: Cody Hendricks -->
+                <div class="roster-card fade-in">
+                    <h3>Cody Hendricks</h3>
+                    <p>#10</p>
+                </div>
+                <!-- 11: Zach Butkovich -->
+                <div class="roster-card fade-in">
+                    <h3>Zach Butkovich</h3>
+                    <p>#11</p>
+                </div>
+                <!-- 12: Lucas Bauer (Starter) -->
+                <div class="roster-card fade-in">
+                    <span class="badge" style="background-color: var(--jmu-purple); color: var(--white);">Starter</span>
+                    <h3>Lucas "Grippy" Bauer</h3>
+                    <p>#12</p>
+                </div>
+                <!-- 13: Alec McManus -->
+                <div class="roster-card fade-in">
+                    <h3>Alec McManus</h3>
+                    <p>#13</p>
+                </div>
+                <!-- 13: Patrick Long -->
+                <div class="roster-card fade-in">
+                    <h3>Patrick Long</h3>
+                    <p>#13</p>
+                </div>
+                <!-- 14: Colin Sloan -->
+                <div class="roster-card fade-in">
+                    <h3>Colin Sloan</h3>
+                    <p>#14</p>
+                </div>
+                <!-- 16: Nathaniel Roy -->
+                <div class="roster-card fade-in">
+                    <h3>Nathaniel Roy</h3>
+                    <p>#16</p>
+                </div>
+                <!-- 18: Brody Wilson -->
+                <div class="roster-card fade-in">
+                    <h3>Brody Wilson</h3>
+                    <p>#18</p>
+                </div>
+                <!-- 19: Adrian Carevic -->
+                <div class="roster-card fade-in">
+                    <h3>Adrian Carevic</h3>
+                    <p>#19</p>
+                </div>
+                <!-- 22: Alec Orsi -->
+                <div class="roster-card fade-in">
+                    <h3>Alec Orsi</h3>
+                    <p>#22</p>
+                </div>
+                <!-- 22: Charlie Hodgson -->
+                <div class="roster-card fade-in">
+                    <h3>Charlie Hodgson</h3>
+                    <p>#22</p>
+                </div>
+                <!-- 23: Shawn -->
+                <div class="roster-card fade-in">
+                    <h3>Shawn</h3>
+                    <p>#23</p>
+                </div>
+                <!-- 24: Bradley Bookwalter -->
+                <div class="roster-card fade-in">
+                    <h3>Bradley Bookwalter</h3>
+                    <p>#24</p>
+                </div>
+                <!-- 67: Anthony Zitoli -->
+                <div class="roster-card fade-in">
+                    <h3>Anthony Zitoli</h3>
+                    <p>#67</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats-section">
+        <div class="container" style="padding: 0;">
+            <h2>Regular Season Statistics</h2>
+            <div class="table-responsive fade-in">
+                <table class="stats-table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Player Name</th>
+                            <th>Goals</th>
+                            <th>Assists</th>
+                            <th>Steals</th>
+                            <th>Saves</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Scott Boutry</td>
+                            <td>0</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>1,000,000</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Peter Willimson</td>
+                            <td>18</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Will Stormer</td>
+                            <td>2</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Aidan Metz</td>
+                            <td>13</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Ethan Okun</td>
+                            <td>13</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>Ethan Smith</td>
+                            <td>2</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>Cody Hendricks</td>
+                            <td>1</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>11</td>
+                            <td>Zach Butkovich</td>
+                            <td>4</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>12</td>
+                            <td>Lucas "Grippy" Bauer</td>
+                            <td>5</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>13</td>
+                            <td>Alec McManus</td>
+                            <td>1</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>19</td>
+                            <td>Adrian Carevic</td>
+                            <td>1</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>24</td>
+                            <td>Bradley Bookwalter</td>
+                            <td>1</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+        </div> <!-- End of Tab 1 -->
+
+        <!-- 2024-25 Season -->
+        <div id="season-24-25" class="tab-content">
+            <section class="roster-section" style="padding-top: 0;">
+                <div class="container" style="padding: 0;">
+                    <h2>2024-25 Starting Roster</h2>
+                    <div class="pool-container fade-in">
+                        <div class="goal-box"></div>
+                        <div class="goal-box opposing"></div>
+                        <div class="water-polo-ball"></div>
+                        <div class="goal-text">GOAL!</div>
+                        
+                        <!-- Goalie -->
+                        <div class="pool-player goalie" style="top: 95%; left: 50%;">
+                            1
+                            <div class="player-info info-top">
+                                <strong>Scott Boutry</strong>
+                                Goalie
+                            </div>
+                        </div>
+                        
+                        <!-- Set -->
+                        <div class="pool-player" style="top: 75%; left: 50%;">
+                            5
+                            <div class="player-info">
+                                <strong>Aidan Metz</strong>
+                                Set
+                            </div>
+                        </div>
+
+                        <!-- Set Defender -->
+                        <div class="pool-player" style="top: 35%; left: 50%;">
+                            2
+                            <div class="player-info">
+                                <strong>Peter Williamson</strong>
+                                Set Defender
+                            </div>
+                        </div>
+
+                        <!-- 1 Position -->
+                        <div class="pool-player" style="top: 80%; left: 15%;">
+                            8
+                            <div class="player-info">
+                                <strong>Ethan Okun</strong>
+                                Position 1
+                            </div>
+                        </div>
+
+                        <!-- 2 Position -->
+                        <div class="pool-player" style="top: 55%; left: 25%;">
+                            13
+                            <div class="player-info">
+                                <strong>Brevin Bugauisan</strong>
+                                Position 2
+                            </div>
+                        </div>
+
+                        <!-- 4 Position -->
+                        <div class="pool-player" style="top: 55%; left: 75%;">
+                            12
+                            <div class="player-info">
+                                <strong>Lucas "Grippy" Bauer</strong>
+                                Position 4
+                            </div>
+                        </div>
+
+                        <!-- 5 Position -->
+                        <div class="pool-player" style="top: 80%; left: 85%;">
+                            9
+                            <div class="player-info">
+                                <strong>Ethan Smith</strong>
+                                Position 5
+                            </div>
+                        </div>
+                    </div>
+
+                    <h2 style="margin-top: 4rem;">2024-25 Full Roster</h2>
+                    <div class="full-roster-grid">
+                        <div class="roster-card fade-in">
+                            <span class="badge" style="background-color: var(--jmu-purple); color: var(--white);">Starter</span>
+                            <h3>Scott Boutry</h3>
+                            <p>#1</p>
+                        </div>
+                        <div class="roster-card fade-in">
+                            <span class="badge" style="background-color: var(--jmu-purple); color: var(--white);">Starter</span>
+                            <h3>Peter Williamson</h3>
+                            <p>#2</p>
+                        </div>
+                        <div class="roster-card fade-in">
+                            <h3>Mercer Love</h3>
+                            <p>#3</p>
+                        </div>
+                        <div class="roster-card fade-in">
+                            <h3>Dash Bush</h3>
+                            <p>#4</p>
+                        </div>
+                        <div class="roster-card fade-in">
+                            <span class="badge" style="background-color: var(--jmu-purple); color: var(--white);">Starter</span>
+                            <h3>Aidan Metz</h3>
+                            <p>#5</p>
+                        </div>
+                        <div class="roster-card fade-in">
+                            <h3>Ethan Eberly</h3>
+                            <p>#6</p>
+                        </div>
+                        <div class="roster-card fade-in">
+                            <h3>Adam Ankel</h3>
+                            <p>#7</p>
+                        </div>
+                        <div class="roster-card fade-in">
+                            <span class="badge" style="background-color: var(--jmu-purple); color: var(--white);">Starter</span>
+                            <h3>Ethan Okun</h3>
+                            <p>#8</p>
+                        </div>
+                        <div class="roster-card fade-in">
+                            <span class="badge" style="background-color: var(--jmu-purple); color: var(--white);">Starter</span>
+                            <h3>Ethan Smith</h3>
+                            <p>#9</p>
+                        </div>
+                        <div class="roster-card fade-in">
+                            <h3>Carter Duche</h3>
+                            <p>#10</p>
+                        </div>
+                        <div class="roster-card fade-in">
+                            <h3>Zach Butkovich</h3>
+                            <p>#11</p>
+                        </div>
+                        <div class="roster-card fade-in">
+                            <span class="badge" style="background-color: var(--jmu-purple); color: var(--white);">Starter</span>
+                            <h3>Lucas "Grippy" Bauer</h3>
+                            <p>#12</p>
+                        </div>
+                        <div class="roster-card fade-in">
+                            <span class="badge" style="background-color: var(--jmu-purple); color: var(--white);">Starter</span>
+                            <h3>Brevin</h3>
+                            <p>#13</p>
+                        </div>
+                        <div class="roster-card fade-in">
+                            <h3>Derek Atkins</h3>
+                            <p>#15</p>
+                        </div>
+                        <div class="roster-card fade-in">
+                            <h3>Patty</h3>
+                            <p>#16</p>
+                        </div>
+                        <div class="roster-card fade-in">
+                            <h3>PJ</h3>
+                            <p>#17</p>
+                        </div>
+                        <div class="roster-card fade-in">
+                            <h3>Pat Long</h3>
+                            <p>#18</p>
+                        </div>
+                        <div class="roster-card fade-in">
+                            <h3>Adrian Carevic</h3>
+                            <p>#19</p>
+                        </div>
+                        <div class="roster-card fade-in">
+                            <h3>Alec McManus</h3>
+                            <p>#20</p>
+                        </div>
+                        <div class="roster-card fade-in">
+                            <h3>Bradley Bookwalter</h3>
+                            <p>#21</p>
+                        </div>
+                        <div class="roster-card fade-in">
+                            <h3>Jack Nelson</h3>
+                            <p>#22</p>
+                        </div>
+                        <div class="roster-card fade-in">
+                            <h3>Aaron Kinitz</h3>
+                            <p>#23</p>
+                        </div>
+                        <div class="roster-card fade-in">
+                            <h3>Matthew Gibson</h3>
+                            <p>#24</p>
+                        </div>
+                        <div class="roster-card fade-in">
+                            <h3>Anthony Zitoli</h3>
+                            <p>#25</p>
+                        </div>
+                        <div class="roster-card fade-in">
+                            <h3>Will Stormer</h3>
+                            <p>#26</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="stats-section">
+                <div class="container" style="padding: 0;">
+                    <h2>2024-25 Regular Season Statistics</h2>
+                    <div class="table-responsive fade-in">
+                        <table class="stats-table">
+                            <thead>
+                                <tr>
+                                    <th>Player Name</th>
+                                    <th>Goals</th>
+                                    <th>Assists</th>
+                                    <th>Steals</th>
+                                    <th>Blocks/Saves</th>
+                                    <th>K/O Drawn</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr><td>Scott</td><td>0</td><td>11</td><td>15</td><td>70</td><td>0</td></tr>
+                                <tr><td>Peter</td><td>24</td><td>7</td><td>26</td><td>5</td><td>12</td></tr>
+                                <tr><td>Ethan</td><td>26</td><td>12</td><td>26</td><td>2</td><td>6</td></tr>
+                                <tr><td>Aidan</td><td>19</td><td>2</td><td>6</td><td>0</td><td>10</td></tr>
+                                <tr><td>Dash</td><td>14</td><td>3</td><td>18</td><td>2</td><td>2</td></tr>
+                                <tr><td>Smitty</td><td>10</td><td>8</td><td>9</td><td>2</td><td>5</td></tr>
+                                <tr><td>Mercer</td><td>7</td><td>3</td><td>9</td><td>1</td><td>5</td></tr>
+                                <tr><td>Lucas "Grippy" Bauer</td><td>4</td><td>10</td><td>7</td><td>0</td><td>3</td></tr>
+                                <tr><td>Brevin</td><td>3</td><td>3</td><td>5</td><td>2</td><td>1</td></tr>
+                                <tr><td>Adrian</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td></tr>
+                                <tr><td>Will</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td></tr>
+                                <tr><td>Aaron</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td></tr>
+                                <tr><td>Adam</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td></tr>
+                                <tr><td>Derek</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td></tr>
+                                <tr><td>Patty</td><td>0</td><td>2</td><td>2</td><td>0</td><td>0</td></tr>
+                                <tr><td>Matthew</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td></tr>
+                                <tr><td>Zach</td><td>0</td><td>2</td><td>3</td><td>1</td><td>0</td></tr>
+                                <tr><td>Carter</td><td>0</td><td>0</td><td>0</td><td>4</td><td>0</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+        </div> <!-- End of Tab 2 -->
+
+        <!-- 2023-24 Season -->
+        <div id="season-23-24" class="tab-content">
+            <section class="roster-section" style="padding-top: 0;">
+                <div class="container" style="padding: 0;">
+                    <h2>2023-24 Full Roster</h2>
+                    <div class="full-roster-grid">
+                        <div class="roster-card fade-in"><h3>Patrick Long</h3></div>
+                        <div class="roster-card fade-in"><h3>Sean Cattie</h3></div>
+                        <div class="roster-card fade-in"><h3>Logan Baylous</h3></div>
+                        <div class="roster-card fade-in"><h3>Zachary Butkovich</h3></div>
+                        <div class="roster-card fade-in"><h3>Dimitrije Hryshchyshyn</h3></div>
+                        <div class="roster-card fade-in"><h3>Samuel Lovell</h3></div>
+                        <div class="roster-card fade-in"><h3>Peter Williamson</h3></div>
+                        <div class="roster-card fade-in"><h3>Patrick Belbin</h3></div>
+                        <div class="roster-card fade-in"><h3>Will Bush</h3></div>
+                        <div class="roster-card fade-in"><h3>Mihailo Lemaic</h3></div>
+                        <div class="roster-card fade-in"><h3>Hayden Manyx</h3></div>
+                        <div class="roster-card fade-in"><h3>Bradley Bookwalter</h3></div>
+                        <div class="roster-card fade-in"><h3>Ethan Okun</h3></div>
+                        <div class="roster-card fade-in"><h3>Adam Ankel</h3></div>
+                        <div class="roster-card fade-in"><h3>Mercer Love</h3></div>
+                        <div class="roster-card fade-in"><h3>Cody Hendricks</h3></div>
+                        <div class="roster-card fade-in"><h3>Nicholas O'Donnell</h3></div>
+                        <div class="roster-card fade-in"><h3>Lucas Bauer</h3></div>
+                        <div class="roster-card fade-in"><h3>Jack Nelson</h3></div>
+                        <div class="roster-card fade-in"><h3>PJ Bruner</h3></div>
+                        <div class="roster-card fade-in"><h3>Jonathan Berry</h3></div>
+                        <div class="roster-card fade-in"><h3>Daniel Brancati</h3></div>
+                        <div class="roster-card fade-in"><h3>Sean Thomas I</h3></div>
+                        <div class="roster-card fade-in"><h3>Isaac Petko</h3></div>
+                    </div>
+                </div>
+            </section>
+            <section class="stats-section">
+                <div class="container" style="padding: 0;">
+                    <h2>2023-24 Regular Season Statistics</h2>
+                    <p class="disclaimer">Historical stats are currently unavailable.</p>
+                </div>
+            </section>
+        </div> <!-- End of Tab 3 -->
+    </div> <!-- End of Tabs Container -->
+
+    <footer>
+        <div class="container">
+            <p>Contact us: <a href="mailto:jmumensclubwaterpolo@gmail.com">jmumensclubwaterpolo@gmail.com</a></p>
+            <p>&copy; 2026 JMU Men's Club Water Polo. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function openTab(evt, seasonId) {
+            // Hide all tab content
+            var tabcontent = document.getElementsByClassName("tab-content");
+            for (var i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+                tabcontent[i].classList.remove("active");
+            }
+
+            // Remove active class from all buttons
+            var tablinks = document.getElementsByClassName("tab-btn");
+            for (var i = 0; i < tablinks.length; i++) {
+                tablinks[i].classList.remove("active");
+            }
+
+            // Show current tab and add active class to button
+            document.getElementById(seasonId).style.display = "block";
+            document.getElementById(seasonId).classList.add("active");
+            evt.currentTarget.classList.add("active");
+        }
+    </script>
+    <a href="https://give.jmu.edu/campaigns/50710/donations/new?designation=a2HPd000000NTnYMAW" target="_blank" class="fab-donate">Donate & Sponsor</a>
+    <script src="animations.js"></script>
+</body>
+</html>
